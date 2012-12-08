@@ -1,0 +1,8 @@
+define KMACHINE spica
+define KTYPE standard
+define KARCH arm
+
+include ktypes/standard
+branch spica
+
+include spica.scc
